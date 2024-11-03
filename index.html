@@ -1,1 +1,87 @@
-<h1> Welcome to  Nazim</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Bar Example</title>
+  <style>
+    /* Basic reset and styling for body */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    /* Style the top navigation bar */
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+
+    /* Style for page sections */
+    .section {
+      padding: 20px;
+    }
+
+    /* Sections background colors for clarity */
+    #home { background-color: #f9f9f9; }
+    #news { background-color: #e9e9e9; }
+    #contact { background-color: #d9d9d9; }
+    #about { background-color: #c9c9c9; }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+
+  <!-- Page Sections -->
+  <div id="home" class="section">
+    <h1>Home</h1>
+    <p>Welcome to the home section.</p>
+  </div>
+
+  <div id="news" class="section">
+    <h1>News</h1>
+    <p>Latest news updates go here.</p>
+  </div>
+
+  <div id="contact" class="section">
+    <h1>Contact</h1>
+    <p>Contact details are here.</p>
+  </div>
+
+  <div id="about" class="section">
+    <h1>About</h1>
+    <p>About information goes here.</p>
+  </div>
+
+</body>
+</html>
